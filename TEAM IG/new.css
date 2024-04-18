@@ -1,0 +1,406 @@
+body{
+    background-color: #050505;
+    color: rgb(243, 241, 241);
+    font-family:Neue Arial, Helvetica, sans-serif;
+    word-spacing: 10%;
+    margin: 0%;
+    padding: 0%;
+}
+/* css for right nav bar */
+.ima1{
+    display: none;
+}
+.panel{
+    width: 18%;
+    background-color: #050505;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+}
+.sidebar-top img, .la:hover{
+    cursor: pointer;
+}
+.side-panel-top, .footer{
+    justify-content: left;
+    height: 75%;
+    width: 50%;
+}
+.side-panel-top img, .footer img{
+    width: 22px;
+    height: 22px;
+}
+.sidebar-top img{
+    width: 120px;
+    height: 50px;
+    padding: 8% 8% 5% 8%;
+}
+.la{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem;
+    justify-content: left;
+}
+.la span{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 200;
+    font-size: 14px;
+    padding-left: 1rem;
+ 
+}
+.footer span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 400;
+}
+.img{
+    border-radius: 5rem;
+}
+.side-panel-top{
+    height: 70%;
+}
+button{
+    opacity: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 0cap;
+}
+button:hover{
+    transition: 0.3s;
+} 
+/* CSS for top profile. */
+.genbox{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    margin-left: 20%;
+    overflow: hidden;
+}
+.allmightycontainer{
+    display: flex;
+}
+.genbox1{
+    display: none;
+}
+.profilewords{
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#profilepics img{
+    border-radius: 300px;
+    margin: 5%;
+}
+*nav{
+    margin: 0%;
+    padding: 0%;
+}
+#mprofilewords{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+#acctname{
+    display: flex;
+    flex-direction: row;
+}
+#acctname a{
+    display: inline-block;
+    width: 14%;
+    height: 20px;
+    border: none;
+    margin: 0.5%;
+    margin-top: 1.5%;
+    background-color: rgb(70, 67, 67);
+    color: white;
+    text-align:center;
+    padding: 1%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.btn {
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 0.5em;
+    height: 1.5rem;
+    border:none;
+    outline:none;
+    background-color: hsl(0, 1%, 15%);
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 11%);
+}
+button {
+    color: black;
+    border: none;
+    background-color: none;
+    margin-top: 1%;
+}
+
+.btn-img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(103deg) brightness(106%) contrast(101%);
+    cursor: pointer;
+
+}
+
+#plainwords{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-between;
+}
+#description{
+    text-wrap: wrap;
+    width: 75%;
+
+}
+#description p{
+    font-size: 15px;
+}
+.profileimg{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: space-around;
+    text-align: center;
+    width: 750px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.profileimg img{
+    border-radius: 300px;
+    margin: 5%;
+}
+/* CSS for bottom post section */
+hr{
+    width: 100%;
+    border: 0.1px solid white;
+}
+.new{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.postbuttons{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.postbuttons2{
+    display: none;
+}
+.postbuttons2 a{
+    display: none;
+}
+.postbuttons a{
+    border: bottom;
+    background-color: none;
+    margin: 7%;
+    cursor: pointer;
+    color:rgb(253, 250, 250);
+    text-decoration: none;
+    display: flex;
+}
+.postbuttons img {
+    border-color: white;
+    filter: invert();
+}
+.bigbox{
+    width: 75%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bigbox2{display: none;}
+.sidebar{
+    background-color: brown;
+}
+.bigbox div{
+    display: flex;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -1.5%;
+}
+.mainbox div {
+    margin: 0.1%;
+}
+.mainbox img {
+    width: 300px;
+}
+.mainbox video{
+    width: 300px;
+}
+@media screen and (max-width:550px) {
+    body{
+        background-color: rgb(8, 8, 8);
+        color: rgb(250, 247, 247);
+        font-family:Neue Arial, Helvetica, sans-serif;
+        word-spacing: 10%;
+    }
+    nav{
+        display: none;
+    }
+    .profile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #pics img{
+        border-radius: 300px;
+    }
+
+    #wrdbut{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    #buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    #buttons a{
+        display: inline-block;
+        width: 95px;
+        height: 20px;
+        border: none;
+        margin: 2%;
+        margin-top: 1.5%;
+        background-color: rgb(70, 67, 67);
+        color: white;
+        text-align:center;
+        padding: 2.5%;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    #button img{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+    }
+    p{
+        text-align: left;
+    }
+    
+    hr{
+        width: 105%;
+        border: 0.1px solid white;
+    }
+    .genbox1{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 100%;
+        margin: 1%;
+    }
+    .genbox{display: none;}
+    .text{
+        margin-top: 5%;
+        display: flex;
+    }
+    .circles{
+        width: 480px;
+        display: flex;
+        margin-top: 5%;
+        margin-right: 3%;
+        margin-left: none;
+        text-align: center;
+    }
+    .circles p{
+        text-align: center;
+    }
+    .circles img{
+        border-radius: 300px;
+        margin: 5px;
+    }
+    .postfollow{
+        width: 90%;
+        height: 50px;
+        margin: 1%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+    }
+    /* media screen for bottom post section */
+    #post{
+        width: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #post p{
+        text-align: center;
+    }
+    .postbuttons2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .postbuttons2 a{
+        border: bottom;
+        background-color: none;
+        margin: 7%;
+        cursor: pointer;
+        color:rgb(14, 13, 13);
+        text-decoration: none;
+        display: flex;
+    }
+    .postbuttons2 img {
+        border-color: rgb(247, 244, 244);
+        filter: invert();
+    }.postbuttons{
+        display: none;
+    }
+    .postbuttons a{
+        display: none;
+    }
+    .bigbox{display: none;}
+    .bigbox2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 25%;
+    }
+    .sidebar{
+        background-color: brown;
+    }
+    .bigbox div{
+        display: flex;
+    }
+    .mainbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: -1.5%;
+    }
+    .mainbox div {
+        margin: 0.1%;
+    }   
+    .mainbox img {
+        width: 155px;
+    }
+    .mainbox video{
+        width: 155px;
+    }
+    #mb1{display: flex;}
+}
